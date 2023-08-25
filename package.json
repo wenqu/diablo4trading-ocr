@@ -1,0 +1,14 @@
+{
+  "name": "diablo-item-ocr",
+  "version": "0.0.0",
+  "description": "A Diablo 4 OCR Library",
+  "main": "src/DiabloOCR.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tesseract.js": "^4.1.1"
+  }
+}
