@@ -119,9 +119,10 @@ After all previous steps, item properties are determined and extracted for furth
 ## Essential Dependencies
 
    [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
+   
    [tesseract.js](https://github.com/naptha/tesseract.js) 
 
-1. Game Data Packages Dependency
+### Game Data Packages Dependency
 
 For accurate JSON representation, this project depends on packages from the repository ```diablosnaps```. While these packages are essential for the OCR system, there are a few considerations to be made:
 
