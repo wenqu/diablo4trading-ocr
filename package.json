@@ -5,12 +5,13 @@
   "main": "src/DiabloOCR.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "dprint fmt"
+    "format": "dprint fmt",
+    "update-diablosnaps": "yarn upgrade @diablosnaps/common"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "root": "github:Kyusung4698/diablosnaps#master",
+    "@diablosnaps/common": "^0.2.5",
     "tesseract.js": "^4.1.1"
   },
   "devDependencies": {

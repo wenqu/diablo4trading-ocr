@@ -26,11 +26,6 @@ This library aims to provide developers with an easy-to-use Optical Character Re
 - Node.js (Version XX or higher)
 - A modern web browser (Chrome, Firefox, Safari, etc.)
 
-### **2. Dependencies**
-
-- [tesseract.js](https://github.com/naptha/tesseract.js) 
-- [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
-
 ### **3. Game Data Packages**
 
 - Make sure the game data packages are available and up-to-date. This ensures accurate JSON representation.
@@ -52,6 +47,7 @@ This library aims to provide developers with an easy-to-use Optical Character Re
 [Back End](https://github.com/SanctuaryTeam/diablo4trading-be)
 
 [Shared](https://github.com/SanctuaryTeam/shared)
+
 ---
 
 ## **Installation & Setup**
@@ -60,13 +56,13 @@ This library aims to provide developers with an easy-to-use Optical Character Re
 1. **Install the package**
 
    ```bash
-   npm install diablo-item-ocr
+   yarn add diablo4trading-ocr
    ```
 
 2. **Include in your project**
 
    ```javascript
-   const diabloOCR = require('diablo-item-ocr');
+   const diabloOCR = require('diablo4trading-ocr');
    ```
 
 3. **Setup game data packages**
@@ -122,7 +118,10 @@ After all previous steps, item properties are determined and extracted for furth
 
 ## Essential Dependencies
 
-   [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
+### **2. Dependencies**
+
+- [tesseract.js](https://github.com/naptha/tesseract.js) 
+- [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
 
 1. **Usage:** After installing, you can require or import it in your project as you would with any other npm package.
 ```bash
@@ -131,7 +130,7 @@ After all previous steps, item properties are determined and extracted for furth
 
 2. **Stay Updated:** Since the library isn't versioned in the same way as npm packages, if you wish to update the library to its latest version later, you can do:
 ```bash
-   npm run update-diablosnaps
+   yarn run update-diablosnaps
 ```
 
 3. Game Data Packages Dependency
