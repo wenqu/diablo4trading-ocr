@@ -118,8 +118,6 @@ After all previous steps, item properties are determined and extracted for furth
 
 ## Essential Dependencies
 
-### **2. Dependencies**
-
 - [tesseract.js](https://github.com/naptha/tesseract.js) 
 - [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
 
