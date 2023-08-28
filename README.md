@@ -29,6 +29,7 @@ This library aims to provide developers with an easy-to-use Optical Character Re
 ### **2. Dependencies**
 
 - [tesseract.js](https://github.com/naptha/tesseract.js) 
+- [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
 
 ### **3. Game Data Packages**
 
@@ -123,7 +124,17 @@ After all previous steps, item properties are determined and extracted for furth
 
    [diablosnaps](https://github.com/Kyusung4698/diablosnaps)
 
-1. Game Data Packages Dependency
+1. **Usage:** After installing, you can require or import it in your project as you would with any other npm package.
+```bash
+   import { someFunction } from 'diablosnaps';
+```
+
+2. **Stay Updated:** Since the library isn't versioned in the same way as npm packages, if you wish to update the library to its latest version later, you can do:
+```bash
+   npm run update-diablosnaps
+```
+
+3. Game Data Packages Dependency
 
 For accurate JSON representation, this project depends on packages from the repository ```diablosnaps```. While these packages are essential for the OCR system, there are a few considerations to be made:
 
