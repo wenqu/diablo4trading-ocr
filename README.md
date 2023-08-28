@@ -47,6 +47,7 @@ This library aims to provide developers with an easy-to-use Optical Character Re
 [Back End](https://github.com/SanctuaryTeam/diablo4trading-be)
 
 [Shared](https://github.com/SanctuaryTeam/shared)
+
 ---
 
 ## **Installation & Setup**
