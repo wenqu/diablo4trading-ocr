@@ -1,9 +1,11 @@
 import * as imageReader from './lib/image-reader';
+import ItemBuilder from "./lib/item-builder";
 
 const diabloOCR = {
     recognize(image): Promise<any> {
-        return new Promise((resolve) => {
-            resolve(imageReader.performOcr(image));
+        return new Promise(async (resolve) => {
+            let text = await imageReader.performOcr(image);
+            resolve(new ItemBuilder(text).build());
         });
     },
 };

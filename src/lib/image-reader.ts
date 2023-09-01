@@ -1,4 +1,5 @@
 import { createWorker } from 'tesseract.js';
+import {Buffer} from 'buffer';
 
 const optimizeImageForTesseract = (image: HTMLImageElement): string => {
     const threshold = 50;
